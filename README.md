@@ -1,6 +1,6 @@
 # SoftSell Landing Page
 
-A modern, single-page React/Next.js application for selling unused software licenses, styled with Tailwind CSS and animated with Framer Motion.
+A modern, single-page Next.js application for selling unused software licenses, styled with Tailwind CSS and animated with Framer Motion.
 
 ---
 
@@ -13,7 +13,6 @@ A modern, single-page React/Next.js application for selling unused software lice
 - **Testimonials:** Two testimonial cards with profile icons.
 - **Contact Form:** Simple, HTML-validated form (Name, Email, Company, License Type, Message).
 - **AI Chat Widget:** Floating chat button with themed chatbox and hardcoded demo responses.
-- **SEO Meta Tags:** Title and description for search engines.
 - **Smooth Section Linking:** Navbar links scroll smoothly to each section.
 
 ---
@@ -21,7 +20,7 @@ A modern, single-page React/Next.js application for selling unused software lice
 ## Design Choices
 
 - **Color Palette:**
-  - Primary: `#4d4d7a` (deep blue)
+  - Primary: `#4d4d7a`
   - Accents: `#c5baff`, `#c4d9ff`, `#e8f9ff`, `#fbfbfb`
 - **Typography:** Clean, bold sans-serif fonts.
 - **Layout:** Centered, responsive, accessible.
@@ -47,7 +46,3 @@ A modern, single-page React/Next.js application for selling unused software lice
 2. Start the development server:
    `#npm run dev`
 3. Visit [http://localhost:3000](http://localhost:3000)
-
----
-
-**All sections are scroll-linked for a smooth single-page experience. Easily customizable for your brand or features.**
