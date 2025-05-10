@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SoftSell Landing Page
 
-## Getting Started
+A modern, single-page React/Next.js application for selling unused software licenses, styled with Tailwind CSS and animated with Framer Motion.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Hero Section:** Headline and animated subheading.
+- **Responsive Navbar:** SoftSell logo left, centered smooth-scroll links (`react-scroll`).
+- **How It Works:** Three animated cards with icons.
+- **Why Choose Us:** Four animated benefit tiles.
+- **Testimonials:** Two testimonial cards with profile icons.
+- **Contact Form:** Simple, HTML-validated form (Name, Email, Company, License Type, Message).
+- **AI Chat Widget:** Floating chat button with themed chatbox and hardcoded demo responses.
+- **SEO Meta Tags:** Title and description for search engines.
+- **Smooth Section Linking:** Navbar links scroll smoothly to each section.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Design Choices
 
-## Learn More
+- **Color Palette:**
+  - Primary: `#4d4d7a` (deep blue)
+  - Accents: `#c5baff`, `#c4d9ff`, `#e8f9ff`, `#fbfbfb`
+- **Typography:** Clean, bold sans-serif fonts.
+- **Layout:** Centered, responsive, accessible.
+- **Animations:** Subtle, engaging section and card transitions.
+- **Security:** No API keys exposed; chat uses mock responses.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Time Spent
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Planning & Design: ~1 hr
+- Components & Layout: ~3 hrs
+- Animations & Polish: ~1.5 hrs
+- Chat Widget & Testing: ~0.5 hr
+- **Total:** ~6 hours
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repo and install dependencies:
+   `#npm install`
+2. Start the development server:
+   `#npm run dev`
+3. Visit [http://localhost:3000](http://localhost:3000)
+
+---
+
+**All sections are scroll-linked for a smooth single-page experience. Easily customizable for your brand or features.**
